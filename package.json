@@ -1,0 +1,30 @@
+{
+  "name": "submission-bpmlwcc",
+  "version": "1.0.0",
+  "description": "Submission Dicoding Belajar Penerapan Machine Learning dengan Google Cloud",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alamsyah-WM/Submission-BPMLwCC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alamsyah-WM/Submission-BPMLwCC/issues"
+  },
+  "homepage": "https://github.com/Alamsyah-WM/Submission-BPMLwCC#readme",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.11.0",
+    "@hapi/hapi": "^21.3.12",
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
